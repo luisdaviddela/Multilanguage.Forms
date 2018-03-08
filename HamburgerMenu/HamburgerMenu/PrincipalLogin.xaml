@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HamburgerMenu.PrincipalLogin">
+    <ContentPage.Content>
+        <StackLayout Padding="30" Spacing="20">
+           
+            <Button Text="Español_" TextColor="Black" FontAttributes="Bold" BackgroundColor="White" Clicked="btn"/>
+            <Button Text="English_" TextColor="White" FontAttributes="Bold" BackgroundColor="Blue" Clicked="btnE"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
